@@ -1,0 +1,323 @@
+[
+	{
+		"name": "montgomery",
+		"displayName": "Montgomery",
+		"state":"alabama",
+		"country": "United States"
+	},{
+		"name": "juneau",
+		"displayName":"Juneaus",
+		"state":"alaska",
+		"country": "United States"
+	},{
+		"name": "phoenix",
+		"displayName":"Phoenix",
+		"state":"arizona",
+		"country": "United States"
+	},{
+		"name": "littlerock",
+		"displayName": "Little Rock",
+		"state":"arkansas",
+		"country": "United States"
+	},{
+		"name": "sacramento",
+		"displayName": "Sacramento",
+		"state":"california",
+		"country": "United States"
+	},{
+		"name": "losangeles",
+		"displayName": "Los Angeles",
+		"state":"california",
+		"country": "United States"
+	},{
+		"name": "sanfrancisco",
+		"displayName": "San Francisco",
+		"state":"california",
+		"country": "United States"
+	},{
+		"name": "sandiego",
+		"displayName": "San Diego",
+		"state":"california",
+		"country": "United States"
+	},{
+		"name": "denver",
+		"displayName": "Denver",
+		"state":"colorado",
+		"country": "United States"
+	},{
+		"name": "hartford",
+		"displayName": "Hartford",
+		"state": "connecticut",
+		"country": "United States"
+	},{
+		"name": "dover",
+		"displayName": "Dover",
+		"state":"delaware",
+		"country": "United States"
+	},{
+		"name": "tallahassee",
+		"displayName": "Tallahassee",
+		"state":"florida",
+		"country": "United States"
+	},{
+		"name": "miami",
+		"displayName": "Miami",
+		"state":"florida",
+		"country": "United States"
+	},{
+		"name": "atlanta",
+		"displayName": "Atlanta",
+		"state":"georgia",
+		"country": "United States"
+	},{
+		"name": "honolulu",
+		"displayName": "Honolulu",
+		"state":"hawaii",
+		"country": "United States"
+	},{
+		"name": "boise",
+		"displayName": "Boise",
+		"state":"idaho",
+		"country": "United States"
+	},{
+		"name": "springfield",
+		"displayName": "Springfield",
+		"state":"illinois",
+		"country": "United States"
+	},{
+		"name": "indianapolis",
+		"displayName": "Indianapolis",
+		"state":"indiana",
+		"country": "United States"
+	},{
+		"name": "desmoines",
+		"displayName": "Des Moines",
+		"state":"iowa",
+		"country": "United States"
+	},{
+		"name": "topeka",
+		"displayName": "Topeka",
+		"state":"kansas",
+		"country": "United States"
+	},{
+		"name": "frankfort",
+		"displayName": "Frankfort",
+		"state":"Kentucky",
+		"country": "United States"
+	},{
+		"name": "batonrouge",
+		"displayName": "Baton Rouge",
+		"state":"louisiana",
+		"country": "United States"
+	},{
+		"name": "augusta",
+		"displayName": "Augusta",
+		"state":"maine",
+		"country": "United States"
+	},{
+		"name": "annapolis",
+		"displayName": "Annapolis",
+		"state":"maryland",
+		"country": "United States"
+	},{
+		"name": "boston",
+		"displayName": "Boston",
+		"state":"massachusettes",
+		"country": "United States"
+	},{
+		"name": "lansing",
+		"displayName": "Lansing",
+		"state":"michigan",
+		"country": "United States"
+	},{
+		"name": "saintpaul",
+		"displayName": "Saint Paul",
+		"state":"minnesota",
+		"country": "United States"
+	},{
+		"name": "jackson",
+		"displayName":"Jackson",
+		"state":"mississippi",
+		"country": "United States"
+	},{
+		"name": "jeffersoncity",
+		"displayName":"Jefferson City",
+		"state":"missouri",
+		"country": "United States"
+	},{
+		"name": "helena",
+		"displayName":"Helena",
+		"state":"montana",
+		"country": "United States"
+	},{
+		"name": "lincoln",
+		"displayName":"Lincoln",
+		"state":"nebraska",
+		"country": "United States"
+	},{
+		"name": "carsoncity",
+		"displayName":"Carson City",
+		"state":"nevada",
+		"country": "United States"
+	},{
+		"name": "concord",
+		"displayName":"Concord",
+		"state":"newhampshire",
+		"country": "United States"
+	},{
+		"name": "trenton",
+		"displayName":"Trenton",
+		"state":"newjersey",
+		"country": "United States"
+	},{
+		"name": "santafe",
+		"displayName":"Santa Fe",
+		"state":"newmexico",
+		"country": "United States"
+	},{
+		"name": "albany",
+		"displayName":"Albany",
+		"state":"newyork",
+		"country": "United States"
+	},{
+		"name": "newyorkcity",
+		"displayName":"New York City",
+		"state":"newyork",
+		"country": "United States"
+	},{
+		"name": "raleigh",
+		"displayName":"Raleigh",
+		"state":"northcarolina",
+		"country": "United States"
+	},{
+		"name": "bismarck",
+		"displayName":"Bismarck",
+		"state":"northdakota",
+		"country": "United States"
+	},{
+		"name": "columbus",
+		"displayName":"Columbus",
+		"state":"Ohio",
+		"country": "United States"
+	},{
+		"name": "oklahomacity",
+		"displayName":"Oklahoma City",
+		"state":"oklahoma",
+		"country": "United States"
+	},{
+		"name": "salem",
+		"displayName":"Salem",
+		"state":"oregon",
+		"country": "United States"
+	},{
+		"name": "harrisburg",
+		"displayName":"Harrisburg",
+		"state":"pennsylvania",
+		"country": "United States"
+	},{
+		"name": "providence",
+		"displayName":"Providence",
+		"state":"rhodeisland",
+		"country": "United States"
+	},{
+		"name": "columbia",
+		"displayName":"Columbia",
+		"state":"southcarolia",
+		"country": "United States"
+	},{
+		"name": "pierre",
+		"displayName":"Pierre",
+		"state":"southdakota",
+		"country": "United States"
+	},{
+		"name": "nashville",
+		"displayName":"Nashville",
+		"state":"tennessee",
+		"country": "United States"
+	},{
+		"name": "austin",
+		"displayName":"Austin",
+		"state":"texas",
+		"country": "United States"
+	},{
+		"name": "saltlakecity",
+		"displayName":"Salt Lake City",
+		"state":"utah",
+		"country": "United States"
+	},{
+		"name": "montpelier",
+		"displayName":"Montpelier",
+		"state":"Vermont",
+		"country": "United States"
+	},{
+		"name": "richmond",
+		"displayName":"Richmond",
+		"state":"virginia",
+		"country": "United States"
+	},{
+		"name": "olympia",
+		"displayName":"Olympia",
+		"state":"Washington",
+		"country": "United States"
+	},{
+		"name": "charleston",
+		"displayName":"Charleston",
+		"state":"westvirginia",
+		"country": "United States"
+	},{
+		"name": "madison",
+		"displayName":"Madison",
+		"state":"wisconsin",
+		"country": "United States"
+	},{
+		"name": "cheyenne",
+		"displayName":"Cheyenne",
+		"state":"wyoming",
+		"country": "United States"
+	},{
+		"name": "washingtondc",
+		"displayName":"Washington, D.C.",
+		"state":"dc",
+		"country": "United States"
+	},{
+		"name": "paris",
+		"displayName":"Paris",
+		"state":"Île-de-France",
+		"country": "France"
+	},{
+		"name": "london",
+		"displayName":"London",
+		"state":"london",
+		"country": "England"
+	},{
+		"name": "milan",
+		"displayName":"Milan",
+		"state":"lombardy",
+		"country": "Italy"
+	},{
+		"name": "stockholm",
+		"displayName":"Stockholm",
+		"state":"södermanland",
+		"country": "Sweden"
+	},{
+		"name": "barcelona",
+		"displayName":"Barcelona",
+		"state":"catalonia",
+		"country": "Spain"
+	},{
+		"name": "rome",
+		"displayName":"Rome",
+		"state":"italy",
+		"country": "Italy"
+	},{
+		"name": "shanghai",
+		"displayName":"Shanghai",
+		"state":"china",
+		"country": "China"
+	},{
+		"name": "tokyo",
+		"displayName":"Tokyo",
+		"state":"Honshu",
+		"country": "Japan"
+	}
+]

@@ -1,0 +1,76 @@
+<head>
+  <title>waywt</title>
+</head>
+
+<template name="layout">
+	{{> header}}
+	<div class="body">
+  		{{> yield}}
+  	</div>
+	{{> footer}}
+</template>
+<template name="header">
+	<div id="header">
+		<div id="logo"></div>
+		{{#if currentUser}}
+			<div id="welcome">Welcome {{currentUser.username}}</div>
+		{{else}}
+			<div class="left" id="welcome">Welcome to WAYWT</div><div class="right"><a href="#" id="login">Login</a></div>
+		{{/if}}
+	</div>
+	{{> landing}}
+</template>
+<template name="footer">
+	<a href="#" id="synccountries">+Sync Countries</a>
+	<a href="#" id="synccities">+Sync Cities</a>
+	<p>&copy;</p>
+</template>
+<template name="home">
+	<div id="countries">
+		<div class="bar">
+			<input type="text" readonly="readonly" placeholder="Pick a Country" value="{{selectedCountry}}"/><a href="#" id="showCountries"><img src="images/dropdownarrow.png"></a>
+			<input type="text" readonly="readonly" placeholder="Pick a City"/><a href="#" onclick="return false;" id="showCities"><img src="images/dropdownarrow.png"></a>
+		</div>
+		<ul id="countrieslist">
+			<li><a href="#" id="clearcountry">&nbsp;</a></li>
+			{{#each country}}
+				{{> singlecountry}}
+			{{/each}}
+		</ul>
+		<ul id="citieslist">
+			{{#each city}}
+				{{> singlecity}}
+			{{/each}}
+		</ul>
+	</div>
+</template>
+<template name="singlecountry">
+	<li><a href="#" id="countryname">{{name}}</a></li>
+</template>
+<template name="singlecity">
+	<li class="city"><a href="{{pathFor 'posts' state=state name=name}}" id="cityname">{{displayName}}{{state}}</a></li>
+</template>
+<template name="posts">
+	{{#each post}}
+		{{> postTemplate}}
+	{{/each}}
+	{{> postForm}}
+</template>
+<template name="postTemplate">
+	<div class="images"></div>
+	<div class="description">{{description}}</div>
+</template>
+<template name="postForm">
+	<form id="newpost">
+		<label for="title">Title:</label><input name="title"/>
+		<label for="description">Description:</label><input name="description"/>
+		<input type="submit" placeholder="Submit"/>
+	</form>
+</template>
+<template name="landing">
+	<div id="landingcontainer">
+		<a href="#" id="hide">x</a>
+		<a href="{{pathFor 'signup'}}">Sign Up</a>
+		<a href="{{pathFor 'login'}}">Log In</a>
+	</div>
+</template>

@@ -12,6 +12,7 @@
 <template name="header">
 	<div id="header">
 		<div id="logo"></div>
+		<a href="#" id="menubtn" class="left"><img src="images/hamburger.png"/></a>
 		{{#if currentUser}}
 			<div id="welcome">Welcome {{currentUser.username}}</div>
 		{{else}}
@@ -69,8 +70,21 @@
 </template>
 <template name="landing">
 	<div id="landingcontainer">
-		<a href="#" id="hide">x</a>
-		<a href="{{pathFor 'signup'}}">Sign Up</a>
-		<a href="{{pathFor 'login'}}">Log In</a>
+	<div id="content">
+		<div id="loginheader">
+			<h1>WAYWT</h1>
+			<h3>Sign In</h3>
+			<div id="orangeline"></div>
+		</div>
+		{{> login}}
 	</div>
+	</div>
+</template>
+<template name="login">
+	<form id="signin">
+		<input placeholder="username" name="username" type="text"/>
+		<input placeholder="password" name="password" type="password"/>
+		<input placeholder="Sign In" name="signinbtn" type="submit" value="Sign In"/>
+		<a href="{{pathFor 'signup'}}">I need an account</a>
+	</form>
 </template>

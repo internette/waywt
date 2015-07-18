@@ -12,14 +12,16 @@ html, body{
 	background: #eeeeee;
 }
 #header{
-	background: white;
+	background: #eee;
 	color: black;
 	clear:both;
 	position:fixed;
 	top:0;
 	width:100%;
+	padding-bottom:2px;
 	border-bottom: 1px solid #e7e7e7;
 	font-size: 16px;
+	font-family: "calluna-sans", sans-serif;
 }
 .body{
 	padding-top: 20px;
@@ -35,16 +37,88 @@ html, body{
 }
 #landingcontainer{
 	display: none;
-	background: white;
-	padding: 5px;
+	background: #eee;
 	color: black;
 	position: fixed;
-	width: 60%;
-	left: 50%;
-	margin-left: -30%;
-	top: 20%;
-	border: 2px solid black;
-	border-radius: 4px;
+	width: 100%;
+	top: 19px;
+	height: 100%;
+	z-index:2000;
+	#loginheader{
+		width: 187px;
+		position:relative;
+		float: right;
+	}
+	#content{
+		width: 500px;
+		position: fixed;
+		left: 50%;
+		margin-left: -250px;
+		height: 301px;
+		top: 50%;
+		margin-top: -150.5px;
+	}
+	h1{
+		font-family: "calluna", serif;
+		font-style: italic;
+		font-size: 52px;
+		font-weight: normal;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	h3{
+		font-size: 25.5px;
+		font-family: "calluna-sans", sans-serif;
+		font-weight: normal;
+		text-align: right;
+		margin-top: 10px;
+	}
+	#orangeline{
+		width:107px;
+		height: 1px;
+		position: absolute;
+		background: #FFB964;
+		top: 91px;
+	}
+	form{
+		clear: both;
+		input{
+			width: 100%;
+			clear: both;
+			padding: 13px;
+			padding-top: 11px;
+			padding-bottom: 11px;
+			box-sizing: border-box;
+			font-size: 16px;
+			background:white;
+			border: 1px solid #cecece;
+			margin-top: 10px;
+			font-family: "calluna-sans", sans-serif;
+		}
+		input[name="signinbtn"]{
+			background: rgba(0,0,0,0);
+			color: black;
+			font-weight: bold;
+			border: 0;
+			width: auto;
+			margin-top: 35px;
+			padding-bottom:0;
+
+		}
+		input[name="signinbtn"] + a{
+			text-align: right;
+			font-family: "calluna";
+			font-style: italic;
+			font-size: 16px;
+			color: black;
+			position: absolute;
+			right:13px;
+			bottom: 0;
+		}
+		input:-webkit-autofill{
+			-webkit-box-shadow: 0px 0px 0px 1000px white inset;
+		}
+	}
 }
 #countrieslist{
 	display:inline-block;

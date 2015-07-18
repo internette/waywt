@@ -12,3 +12,5 @@ http
 iron:router
 lepozepo:cloudinary
 underscore
+velocityjs:velocityjs
+jquery
